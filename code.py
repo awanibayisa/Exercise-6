@@ -21,11 +21,21 @@ def print_message(message):
     """
     print("Hello Everybody")
 
+def print_second_parameter(parameter):
+    """
+        This method prints a parameter that is passes as a parameter
+        Args:
+            message
+        Return:
+            None
+    """
+    print(parameter)
 def main(parameter1, parameter2):
     #Note that this function does not do anything.
     #You would insert functional code here.
     #Instead we will use the pass keyword to avoid doing that.
     print_message(message=parameter1)
+    print_second_parameter(parameter=parameter2)
 def parse_args(args_list):
     """Takes a list of strings from the command prompt and passes them through as arguments
     
